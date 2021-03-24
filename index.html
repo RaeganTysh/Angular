@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<body>
+    <!-- ng-app calls the angular libraries -->
+    <!-- can use ng-bind then model name -->
+    <!-- can use ng-model -->
+    <!-- <div ng-app="">
+        <p>Input your Name here</p>
+        <p>Name: <input type="text" ng-model="name"></p>
+        <p ng-bind="name"></p>
+        <p>{{name}}</p>
+    </div> -->
+    <!-- can use ng-app or data-ng-app libraries -->
+    <!-- <div ng-app="" ng-init="firstName='John'">
+        <p>The name is <span ng-bind="firstName"></span></p>
+    </div> -->
+    <div data-ng-app="" data-ng-init="firstName='John'">
+        <p>The name is <span data-ng-bind="firstName"></span></p>
+    </div>
+
+</body>
+
+</html>
